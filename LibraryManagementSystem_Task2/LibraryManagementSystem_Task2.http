@@ -1,0 +1,19 @@
+@LibraryManagementSystem_Task2_HostAddress = http://localhost:7099
+
+### Отримати всіх користувачів
+GET {{LibraryManagementSystem_Task2_HostAddress}}/api/users
+Accept: application/json
+
+###
+
+### Отримати всі книги
+GET {{LibraryManagementSystem_Task2_HostAddress}}/api/books
+Accept: application/json
+
+###
+
+### Отримати всі позичені книги
+GET {{LibraryManagementSystem_Task2_HostAddress}}/api/borrowedbooks
+Accept: application/json
+
+###
